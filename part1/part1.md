@@ -45,8 +45,25 @@ These are all allowed because the values are constantly updated through for loop
     <li>Access the first index in the array of the courseLoad property of the student object: student.courseLoad[1]</li>
     </ul>
 
-Accessing the value of the name property in the student object
-Accessing the value of the Grad Year property in the student object
-Calling the function for the greeting property in the student object
-Accessing the name property of the object in the Favorite Teacher property in student
-Access the first index in the array of the courseLoad property of the student object
+### Basic Operators & Type Conversion 
+* Question 13: 
+  * '3' + 2: '32': '2' is casted as a char, so '3' and '2' are concatenated (has multiple functions/meaning, would not be clear)
+  * '3' - 2: 1: '3' becomes a number, so 3-2 = 1 ("-" has the subtraction function so it would be casted as a number instead of string) 
+  * 3 + null: 3, null would be considered undefined so 3+null=3 (the number would overrule, stays as a number)
+  * ‘3’ + null: '3null' because this is concatenation. 
+  * true + 3: *true* has the value of 1 because it represents 1 in terms of binary; therefore, (true=1) + 3 = 4
+  * false + null: false has the value of 0 because it represents 0 in terms of binary, therefore false = 0, and null is still undefined. 
+  * '3' + undefined: '3undefined' because this would be considered concatenation
+  * '3' - undefined: NaN because cannot detect undefined in arithmetic
+
+### Comparison
+* Question 14: 
+  * '2' > 1: true
+  * ‘2’ < ‘12’: false since this is read through lexicographic, the first character of '12' is '1' and '1' is less than '2'. 
+  * 2 == ‘2’: true '2' is casted as a number, 2=2 is true. 
+  * 2 === ‘2’: false because === does not type cast, would be comparing string and number, which is false 
+  * true == 2: false because true is 1, so 1 does not equal 2 
+  * true === Boolean(2), since the value of 2 is 1+, it would be true since it is not 0. Therefore, true = true. 
+
+* Question 15: 
+  * == type casts the two items while === does not type cast 
