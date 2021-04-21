@@ -69,4 +69,7 @@ These are all allowed because the values are constantly updated through for loop
   * == type casts the two items while === does not type cast 
   
 ### Loops 
-* Question 16: 
+* Question 16: in [part1b-question16.js](https://github.com/sophiaallui/sp21-cse110-lab4/blob/master/part1/part1b-question16.js)
+
+### Functions: 
+* Question 17: [2,4,6] because the array [1,2,3] is sent into modifyArray, which is then processed in doSomething. Inside of doSomething, it would multiply each element by 2. Each element is processed in a for loop and stored inside of newArr. The output is the newArr. 
