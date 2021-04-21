@@ -1,6 +1,6 @@
 # Part 1: Intro to Javascript
 
-## Part A: 
+## Part A:IDKSADASDKASLDASJDLKJL 
 
 ### *var* Declaration: 
 * Question 1: values add:  20
