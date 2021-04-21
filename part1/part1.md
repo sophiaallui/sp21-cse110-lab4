@@ -64,6 +64,9 @@ These are all allowed because the values are constantly updated through for loop
   * 2 === ‘2’: false because === does not type cast, would be comparing string and number, which is false 
   * true == 2: false because true is 1, so 1 does not equal 2 
   * true === Boolean(2), since the value of 2 is 1+, it would be true since it is not 0. Therefore, true = true. 
-
+  
 * Question 15: 
   * == type casts the two items while === does not type cast 
+  
+### Loops 
+* Question 16: 
