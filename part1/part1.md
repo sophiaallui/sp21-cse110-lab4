@@ -1,6 +1,6 @@
 # Part 1: Intro to Javascript
 
-## Part A:IDKSADASDKASLDASJDLKJL 
+## Part 1A:
 
 ### *var* Declaration: 
 * Question 1: values add:  20
@@ -16,7 +16,7 @@
 * Question 1: nothing is printed because result is const which means it cannot be replaced "num1+num2". 
 * Question 2: "TypeError: Assignment to constant variable" const does not carry out from the scope. 
 
-## Part B:  
+## Part 1B:  
 * Question 1: line 12: 3 because there are three elements in the prices array. 
 
 * Question 2: line 13:  150 because that is the current discounted amount. 
