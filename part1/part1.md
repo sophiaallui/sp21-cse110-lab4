@@ -25,15 +25,15 @@
 
 These are all allowed because the values are constantly updated through for loops. 
 
-* Question 4: Nothing gets printed because discounted is used as a push, where the user would have to push something to add that value to discounted array. 
+* Question 4: [50,100,150]: the 50% off discount is applied to elements in the array input. Since the variables are declared as *var*, all of the content is saved and preversed from when it was called, used in the for loop, and called for return. 
 
 * Question 5: "ReferenceError: i is not defined" because i is out of the scope, i would only exist in the for loop. 
 * Question 6: "ReferenceError: discountedPrice is not defined" since discountedPrice is declared with let inside of the for loop. 
 * Question 7: since *finalPrice* is set in the same scope as line 14, the value of *finalPrice* would be carried out. 
-* Question 8: this function would not return anything because it didn't add values to the array 
+* Question 8: [50,100,150]: since theyre still in the same scope, they values are still carried out. Therefore, it was able to calculate the discount for each of the input array *prices* elements.  
 * Question 9: "ReferenceError: i is not defined" since i is declared as a let, it cannot be read outside of the for loop. 
 * Question 10: 3, *length* in line 4 stores a const variable for the number of elements from input array *prices*. Therefore, it would be printed from line 12. 
-* Question 11: nothing is pushed until user pushed it
+* Question 11: [50,100,150]: the push happened during the for loop therefore the values are preserved. 
 
 ### Data Types
 * Question 12: 
