@@ -10,4 +10,7 @@
     `let result = parseInt(num1) + parseInt(num2)` 
 
 3. citylots.json
-4. 
+4. part2.js
+5. 11.7mb
+6. 84ms
+ 
