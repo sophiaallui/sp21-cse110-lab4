@@ -9,6 +9,8 @@
 
     `let result = parseInt(num1) + parseInt(num2)` 
 
+    <img src="part3_fix.png">
+
 3. citylots.json
 4. part2.js
 5. 11.7mb
